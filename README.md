@@ -1,54 +1,45 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby minimal starter
-</h1>
+### 🚀 "Production" app running [here](https://stream.gatsbyjs.io/)!
 
-## 🚀 Quick start
+# 🔥 Getting started
+1. `npm install`
+2. `yarn develop` or `yarn start`
 
-1.  **Create a Gatsby site.**
+# ✨ My favorite parts of this exercise
+* I really liked how doing this project gave me a ton of experience working with Stream's chat! I ended up spending a lot of time going through various documentation and source code to learn how to do things like create custom components, override styles, and create users and channels. 
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+* I got to make another app with Gatsby!
 
-2.  **Start developing.**
 
-    Navigate into your new site’s directory and start it up.
+* I used Framer Motion for some nice interactions. My two favorites are how the hospital statistics cards slide in on page load and the pulsating notification dots on icon hover.
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
 
-3.  **Open the code and start customizing!**
+* I made the assumption that component libraries were off-limits for this exercise, so I made all the components by hand with the help of Styled Components
 
-    Your site is now running at http://localhost:8000!
+# ⏱️ Things I'd like to do if I had more time
+* I really like to make the app responsive. The current code does fine on larger viewports, but I'd love to take another pass to allow this app to look great on tablet and mobile viewports.
 
-    Edit `src/pages/index.js` to see your site update in real-time!
 
-4.  **Learn more**
+* I'd love to switch up the file structure to something that would allow me to split up the code a bit more. Some component files got pretty large due to having React, Styled Components, and Framer Motion code in them.
 
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+* Re-approach how I integrated Stream chat into the app. I kept the integration of chat for last— Running out of time, I still wanted to honor the deadline I gave myself of Monday, so I styled this part of the app in a way that falls short of my own standards. I'd love to be able to start fresh on this, and learn the best way to integrate and customize this integration for a React app.
 
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+* More animations with Framer Motion, because who doesn't like more animations? Especially a route animation between dashboard and doctor profiles, also some kind of scale animation with color when the user clicks on one of the hospital statistic cards.
 
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+* Flush out the common components a bit more (e.g. Button, Card, Text Input, etc.). Since I was on a time crunch, I implemented these common components enough to work for this exercise only. 
 
-## 🚀 Quick start (Gatsby Cloud)
 
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
+* Automated tests using react-testing-library!
 
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
+
+* Improve the apps' Lighthouse score
+
+# 📈 Possible improvement ideas for Stream
+* I think the JS/Node code example for client is outdated in this section: App Overview > Integration dialog > JS/Node tab
+
+
+* Live code frames on the documentation pages (e.g. [this page](https://getstream.io/chat/docs/sdk/react/custom-code-examples/channel_list_preview/))
+  * Also provide links to one or more sandboxes so users can see everything in action.

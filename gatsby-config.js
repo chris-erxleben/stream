@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
-    title: "Stream",
+    siteUrl: 'https://stream.gatsbyjs.io/',
+    title: 'Stream',
   },
-  plugins: ["gatsby-plugin-styled-components"],
-};
+  plugins: [`gatsby-plugin-styled-components`, `gatsby-plugin-react-helmet`],
+}
